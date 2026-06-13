@@ -1,0 +1,85 @@
+{
+  "Meta": {
+    "title": "Tigran Mkrtchyan — Full-Stack Developer",
+    "description": "Portfolio of Tigran Mkrtchyan: full-stack web projects, commercial work, and case studies."
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "Hero": {
+    "greeting": "Hi, I'm",
+    "role": "Full-Stack Developer",
+    "tagline": "I build fast, polished web apps — from idea and UI to deploy on the cloud.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch",
+    "ctaResume": "Download CV"
+  },
+  "Home": {
+    "featuredTitle": "Selected work",
+    "featuredSubtitle": "A few projects I'm proud of — see the full list on the projects page.",
+    "viewAll": "View all projects",
+    "ctaTitle": "Have a project or role in mind?",
+    "ctaText": "I'm open to full-stack roles and freelance work.",
+    "ctaButton": "Get in touch"
+  },
+  "About": {
+    "title": "About me",
+    "body": "I'm a full-stack developer focused on React, Next.js and TypeScript. I like turning messy requirements into clean, reliable products — and shipping them. Below are some of the things I've built, including commercial work I can only show through screenshots.",
+    "statProjects": "Projects shipped",
+    "statTech": "Technologies",
+    "statYears": "Years coding"
+  },
+  "Skills": {
+    "title": "Skills",
+    "subtitle": "The tools I reach for most often.",
+    "chartLabel": "Proficiency"
+  },
+  "Projects": {
+    "title": "Projects",
+    "subtitle": "Click a card to see details, screenshots and links.",
+    "filterAll": "All",
+    "viewDetails": "View details",
+    "live": "Live demo",
+    "code": "Source code",
+    "tryDemo": "Try the demo",
+    "screenshots": "Screenshots",
+    "techStack": "Tech stack",
+    "privateBadge": "Private / commercial",
+    "privateNote": "This is commercial, closed-source work. The live app and code aren't public — here's a guided walkthrough in screenshots instead.",
+    "galleryHint": "Use arrows or swipe to browse the walkthrough.",
+    "noLive": "Live link is private",
+    "back": "Back to projects"
+  },
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "Got a role or project in mind? Let's talk.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "nameRequired": "Please enter your name",
+    "emailInvalid": "Please enter a valid email",
+    "messageRequired": "Please write a short message",
+    "success": "Thanks! Your message draft is ready — it opens in your email app.",
+    "orEmail": "Or email me directly:"
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js, HeroUI & Redux."
+  },
+  "Theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "Lang": {
+    "label": "Language"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "Meta": {
+    "title": "Tigran Mkrtchyan — Full-Stack Developer",
+    "description": "Portfolio Tigrana Mkrtchyana: projekty webowe full-stack, prace komercyjne i case studies."
+  },
+  "Nav": {
+    "home": "Start",
+    "about": "O mnie",
+    "projects": "Projekty",
+    "skills": "Umiejętności",
+    "contact": "Kontakt",
+    "resume": "CV"
+  },
+  "Hero": {
+    "greeting": "Cześć, jestem",
+    "role": "Full-Stack Developer",
+    "tagline": "Tworzę szybkie, dopracowane aplikacje webowe — od pomysłu i UI po wdrożenie w chmurze.",
+    "ctaProjects": "Zobacz projekty",
+    "ctaContact": "Napisz do mnie",
+    "ctaResume": "Pobierz CV"
+  },
+  "Home": {
+    "featuredTitle": "Wybrane prace",
+    "featuredSubtitle": "Kilka projektów, z których jestem dumny — pełna lista na stronie projektów.",
+    "viewAll": "Zobacz wszystkie projekty",
+    "ctaTitle": "Masz projekt lub stanowisko na myśli?",
+    "ctaText": "Jestem otwarty na role full-stack i pracę freelance.",
+    "ctaButton": "Napisz do mnie"
+  },
+  "About": {
+    "title": "O mnie",
+    "body": "Jestem full-stack developerem skupionym na React, Next.js i TypeScript. Lubię zamieniać niejasne wymagania w czyste, niezawodne produkty — i je wdrażać. Poniżej kilka rzeczy, które zbudowałem, w tym prace komercyjne, które mogę pokazać tylko na zrzutach ekranu.",
+    "statProjects": "Wdrożone projekty",
+    "statTech": "Technologie",
+    "statYears": "Lat kodowania"
+  },
+  "Skills": {
+    "title": "Umiejętności",
+    "subtitle": "Narzędzia, po które sięgam najczęściej.",
+    "chartLabel": "Poziom"
+  },
+  "Projects": {
+    "title": "Projekty",
+    "subtitle": "Kliknij kartę, aby zobaczyć szczegóły, zrzuty ekranu i linki.",
+    "filterAll": "Wszystkie",
+    "viewDetails": "Szczegóły",
+    "live": "Wersja live",
+    "code": "Kod źródłowy",
+    "tryDemo": "Wypróbuj demo",
+    "screenshots": "Zrzuty ekranu",
+    "techStack": "Stack technologiczny",
+    "privateBadge": "Prywatny / komercyjny",
+    "privateNote": "To praca komercyjna o zamkniętym kodzie. Aplikacja live i kod nie są publiczne — zamiast tego prezentacja krok po kroku na zrzutach ekranu.",
+    "galleryHint": "Użyj strzałek lub przesuń, aby przeglądać prezentację.",
+    "noLive": "Link live jest prywatny",
+    "back": "Powrót do projektów"
+  },
+  "Contact": {
+    "title": "Kontakt",
+    "subtitle": "Masz rolę lub projekt na myśli? Porozmawiajmy.",
+    "name": "Imię",
+    "email": "Email",
+    "message": "Wiadomość",
+    "send": "Wyślij wiadomość",
+    "sending": "Wysyłanie…",
+    "nameRequired": "Podaj swoje imię",
+    "emailInvalid": "Podaj poprawny adres email",
+    "messageRequired": "Napisz krótką wiadomość",
+    "success": "Dzięki! Twoja wiadomość jest gotowa — otworzy się w aplikacji pocztowej.",
+    "orEmail": "Albo napisz bezpośrednio:"
+  },
+  "Footer": {
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "builtWith": "Zbudowane w Next.js, HeroUI i Redux."
+  },
+  "Theme": {
+    "toggle": "Przełącz motyw",
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "system": "Systemowy"
+  },
+  "Lang": {
+    "label": "Język"
+  }
+}

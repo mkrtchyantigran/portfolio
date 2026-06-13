@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial,
+    sans-serif;
+  /* Theme-aware colors for the Recharts radar (warm grays for light theme) */
+  --chart-grid: #e7e5e4;
+  --chart-axis: #78716c;
+}
+
+.dark {
+  --chart-grid: #334155;
+  --chart-axis: #94a3b8;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl font-bold tracking-tight sm:text-4xl;
+  }
+  .section-subtitle {
+    @apply mt-3 text-lg text-default-500;
+  }
+}
+
+/* Swiper gallery accents */
+.project-gallery {
+  --swiper-theme-color: #818cf8;
+  --swiper-navigation-size: 22px;
+}
+.project-gallery .swiper-button-next,
+.project-gallery .swiper-button-prev {
+  color: #818cf8;
+}
+.project-gallery .swiper-pagination-bullet-active {
+  background: #818cf8;
+}

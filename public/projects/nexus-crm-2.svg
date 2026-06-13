@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Segoe UI, system-ui, sans-serif">
+  <rect width="1280" height="800" fill="#f8fafc"/>
+  <rect width="1280" height="64" fill="#6366f1"/>
+  <text x="32" y="40" font-size="22" font-weight="700" fill="#ffffff">Nexus CRM</text>
+  <text x="1248" y="40" text-anchor="end" font-size="18" fill="#ffffff" opacity="0.85">Screen 2</text>
+  <rect x="0" y="64" width="240" height="736" fill="#ffffff"/>
+  <rect x="24" y="100" width="192" height="36" rx="8" fill="#e2e8f0"/>
+  <rect x="24" y="148" width="192" height="36" rx="8" fill="#eef2ff"/>
+  <rect x="24" y="196" width="192" height="36" rx="8" fill="#e2e8f0"/>
+  <rect x="24" y="244" width="192" height="36" rx="8" fill="#e2e8f0"/>
+  <rect x="288" y="104" width="300" height="120" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="612" y="104" width="300" height="120" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="936" y="104" width="300" height="120" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="288" y="252" width="624" height="496" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="936" y="252" width="300" height="496" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="320" y="292" width="220" height="20" rx="6" fill="#6366f1" opacity="0.8"/>
+  <rect x="320" y="332" width="540" height="12" rx="6" fill="#e2e8f0"/>
+  <rect x="320" y="360" width="500" height="12" rx="6" fill="#e2e8f0"/>
+  <rect x="320" y="388" width="520" height="12" rx="6" fill="#e2e8f0"/>
+</svg>
