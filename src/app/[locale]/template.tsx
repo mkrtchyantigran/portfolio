@@ -1,17 +1,9 @@
-'use client';
-
-import { motion } from 'framer-motion';
 import type { ReactNode } from 'react';
 
-// A template re-mounts on every navigation, so this animates page transitions.
+// A template re-mounts on every navigation. We intentionally keep it as a plain
+// passthrough (no opacity/transform animation): a page-wide fade here replayed
+// on every reload and navigation, briefly showing an empty/faded page before
+// content settled. Per-section entrance animations (Hero, Reveal) handle polish.
 export default function Template({ children }: { children: ReactNode }) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 8 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3, ease: 'easeOut' }}
-    >
-      {children}
-    </motion.div>
-  );
+  return <>{children}</>;
 }

@@ -11,6 +11,7 @@ import {
   NavbarMenuToggle,
   Button,
 } from '@heroui/react';
+import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { FileDown } from 'lucide-react';
 import { Link, usePathname } from '@/i18n/navigation';
@@ -19,10 +20,10 @@ import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
 import { profile } from '@/data/profile';
 
 const NAV = [
-  { key: 'home', href: '/' },
-  { key: 'about', href: '/about' },
+  // The home page now doubles as "About me", so the landing link is labelled accordingly.
+  { key: 'about', href: '/' },
+  { key: 'experience', href: '/experience' },
   { key: 'projects', href: '/projects' },
-  { key: 'skills', href: '/skills' },
   { key: 'contact', href: '/contact' },
 ] as const;
 
@@ -52,24 +53,37 @@ export function SiteNavbar() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden gap-6 sm:flex" justify="center">
-        {NAV.map(({ key, href }) => (
-          <NavbarItem key={key} isActive={isActive(href)}>
-            <Link
-              href={href}
-              className={
-                isActive(href)
-                  ? 'text-sm font-medium text-primary'
-                  : 'text-sm text-foreground transition-colors hover:text-primary'
-              }
-            >
-              {t(key)}
-            </Link>
-          </NavbarItem>
-        ))}
+      <NavbarContent className="hidden gap-1 sm:flex" justify="center">
+        {NAV.map(({ key, href }) => {
+          const active = isActive(href);
+          return (
+            <NavbarItem key={key}>
+              <Link
+                href={href}
+                aria-current={active ? 'page' : undefined}
+                className={[
+                  'relative rounded-lg px-3.5 py-1.5 text-sm transition-colors duration-300',
+                  active
+                    ? 'font-medium text-foreground'
+                    : 'text-foreground/60 hover:bg-default-100/50 hover:text-foreground',
+                ].join(' ')}
+              >
+                {/* Single shared pill that smoothly slides to the active item */}
+                {active && (
+                  <motion.span
+                    layoutId="nav-active-pill"
+                    className="absolute inset-0 -z-10 rounded-lg border border-default-200 bg-default-100/70"
+                    transition={{ type: 'spring', stiffness: 380, damping: 32 }}
+                  />
+                )}
+                {t(key)}
+              </Link>
+            </NavbarItem>
+          );
+        })}
       </NavbarContent>
 
-      <NavbarContent justify="end" className="gap-1">
+      <NavbarContent justify="end" className="gap-2 sm:gap-3">
         <NavbarItem>
           <LanguageSwitcher />
         </NavbarItem>
@@ -82,10 +96,11 @@ export function SiteNavbar() {
             href={profile.cvPath}
             target="_blank"
             rel="noopener noreferrer"
-            color="primary"
-            variant="flat"
+            variant="light"
             size="sm"
             startContent={<FileDown size={16} />}
+            // Same translucent-rectangle look as the active navbar pill.
+            className="rounded-lg border border-default-200 bg-default-100/70 text-foreground transition-colors data-[hover=true]:bg-default-100"
           >
             {t('resume')}
           </Button>

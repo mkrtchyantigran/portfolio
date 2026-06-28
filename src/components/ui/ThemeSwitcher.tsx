@@ -21,10 +21,12 @@ export function ThemeSwitcher() {
       isSelected={isDark}
       onValueChange={(selected) => setTheme(selected ? 'dark' : 'light')}
       size="lg"
-      color="secondary"
       aria-label={t('toggle')}
       classNames={{
-        wrapper: 'mx-0',
+        // Translucent rectangle track in both states — matches the navbar pill,
+        // instead of the solid secondary fill.
+        wrapper:
+          'mx-0 rounded-lg border border-default-200 bg-default-100/70 group-data-[selected=true]:bg-default-100/70',
       }}
       thumbIcon={({ isSelected, className }) =>
         isSelected ? (

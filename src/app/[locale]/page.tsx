@@ -17,6 +17,7 @@ export default async function Home({
   return (
     <>
       <Hero />
+
       <FeaturedProjects />
 
       <section className="border-t border-default-200">

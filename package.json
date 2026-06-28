@@ -12,6 +12,8 @@
     "@heroui/react": "^2.6.0",
     "@heroui/theme": "^2.4.26",
     "@hookform/resolvers": "^3.9.1",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
     "@reduxjs/toolkit": "^2.5.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.15.0",
@@ -26,6 +28,7 @@
     "recharts": "^2.15.0",
     "swiper": "^11.1.15",
     "tailwind-merge": "^2.6.0",
+    "three": "^0.184.0",
     "zod": "^3.24.1"
   },
   "devDependencies": {
@@ -33,6 +36,7 @@
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
+    "@types/three": "^0.184.1",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.17.0",
     "eslint-config-next": "^16.0.0",

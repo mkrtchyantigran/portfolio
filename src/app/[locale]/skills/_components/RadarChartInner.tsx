@@ -23,8 +23,8 @@ export function RadarChartInner({ label }: { label: string }) {
         <Radar
           name={label}
           dataKey="level"
-          stroke="#818cf8"
-          fill="#818cf8"
+          stroke="#10b981"
+          fill="#10b981"
           fillOpacity={0.4}
         />
       </RadarChart>

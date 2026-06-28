@@ -10,6 +10,7 @@ import { routing, type Locale } from '@/i18n/routing';
 import { Providers } from '@/providers/Providers';
 import { SiteNavbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
+import { ContactWidget } from '@/components/ui/ContactWidget';
 import '../globals.css';
 
 type LayoutProps = {
@@ -53,6 +54,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
             <SiteNavbar />
             <main className="min-h-[70vh]">{children}</main>
             <Footer />
+            <ContactWidget />
           </Providers>
         </NextIntlClientProvider>
       </body>

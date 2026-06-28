@@ -37,6 +37,8 @@ export function LanguageSwitcher() {
           variant="light"
           size="sm"
           aria-label={t('label')}
+          // Same translucent-rectangle look as the active navbar pill.
+          className="rounded-lg border border-default-200 bg-default-100/70 text-foreground transition-colors data-[hover=true]:bg-default-100"
           startContent={<Globe size={16} />}
           endContent={
             <ChevronDown

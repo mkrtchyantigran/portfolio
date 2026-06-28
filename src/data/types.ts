@@ -23,6 +23,9 @@ export interface Project {
   description: Localized;
   /** Main image shown on the card. */
   cover: string;
+  /** Intrinsic cover dimensions — used by the public showcase preview. */
+  coverWidth?: number;
+  coverHeight?: number;
   /** Category id used by the filter (e.g. "commercial", "web"). */
   category: string;
   /** Tech stack chips. */

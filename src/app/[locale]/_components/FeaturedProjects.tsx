@@ -28,7 +28,7 @@ export function FeaturedProjects() {
         </div>
         <Link
           href="/projects"
-          className="group hidden shrink-0 items-center gap-1.5 text-sm font-medium text-primary sm:inline-flex"
+          className="group hidden shrink-0 items-center gap-1.5 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-transform hover:scale-[1.02] sm:inline-flex"
         >
           {t('viewAll')}
           <ArrowRight

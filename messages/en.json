@@ -5,8 +5,9 @@
   },
   "Nav": {
     "home": "Home",
-    "about": "About",
-    "projects": "Projects",
+    "about": "About me",
+    "experience": "Experience",
+    "projects": "My Projects",
     "skills": "Skills",
     "contact": "Contact",
     "resume": "Resume"
@@ -14,10 +15,12 @@
   "Hero": {
     "greeting": "Hi, I'm",
     "role": "Full-Stack Developer",
-    "tagline": "I build fast, polished web apps — from idea and UI to deploy on the cloud.",
+    "tagline": "I am a skilled software developer delivering high-quality solutions across diverse projects. My expertise spans front-end and back-end development, including TypeScript, React, Next.js and Redux.",
+    "tagline2": "I specialize in creating user-friendly interfaces and scalable systems to meet client needs. My passion lies in solving complex challenges with clean and effective solutions.",
     "ctaProjects": "View projects",
-    "ctaContact": "Get in touch",
-    "ctaResume": "Download CV"
+    "ctaContact": "Contact Info",
+    "ctaResume": "View Resume",
+    "dragHint": "Drag to rotate"
   },
   "Home": {
     "featuredTitle": "Selected work",
@@ -34,6 +37,13 @@
     "statTech": "Technologies",
     "statYears": "Years coding"
   },
+  "Experience": {
+    "title": "Experience",
+    "subtitle": "My journey so far — roles, projects and learning.",
+    "present": "Present",
+    "workTitle": "Work experience",
+    "coursesTitle": "Courses"
+  },
   "Skills": {
     "title": "Skills",
     "subtitle": "The tools I reach for most often.",
@@ -44,6 +54,7 @@
     "subtitle": "Click a card to see details, screenshots and links.",
     "filterAll": "All",
     "viewDetails": "View details",
+    "explore": "Explore",
     "live": "Live demo",
     "code": "Source code",
     "tryDemo": "Try the demo",
@@ -51,7 +62,7 @@
     "techStack": "Tech stack",
     "privateBadge": "Private / commercial",
     "privateNote": "This is commercial, closed-source work. The live app and code aren't public — here's a guided walkthrough in screenshots instead.",
-    "galleryHint": "Use arrows or swipe to browse the walkthrough.",
+    "galleryHint": "Click the thumbnails or arrows to browse the walkthrough.",
     "noLive": "Live link is private",
     "back": "Back to projects"
   },
@@ -81,5 +92,14 @@
   },
   "Lang": {
     "label": "Language"
+  },
+  "Widget": {
+    "online": "Online",
+    "greeting": "Hi! 👋 I'm available — ask a question or send me a message.",
+    "teaser": "Hi 👋 I'm online — got a question?",
+    "writeButton": "Write a message",
+    "emailButton": "Email me",
+    "open": "Open chat",
+    "close": "Close"
   }
 }

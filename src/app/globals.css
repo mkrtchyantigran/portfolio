@@ -20,6 +20,18 @@ html {
   scroll-padding-top: 5rem;
 }
 
+/* Smooth color fade when toggling light/dark theme.
+   Kept in the base layer so per-element transition utilities still win. */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+  }
+}
+
 body {
   font-family: var(--font-sans);
 }
@@ -31,17 +43,4 @@ body {
   .section-subtitle {
     @apply mt-3 text-lg text-default-500;
   }
-}
-
-/* Swiper gallery accents */
-.project-gallery {
-  --swiper-theme-color: #818cf8;
-  --swiper-navigation-size: 22px;
-}
-.project-gallery .swiper-button-next,
-.project-gallery .swiper-button-prev {
-  color: #818cf8;
-}
-.project-gallery .swiper-pagination-bullet-active {
-  background: #818cf8;
 }

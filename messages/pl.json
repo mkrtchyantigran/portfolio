@@ -4,9 +4,10 @@
     "description": "Portfolio Tigrana Mkrtchyana: projekty webowe full-stack, prace komercyjne i case studies."
   },
   "Nav": {
-    "home": "Start",
+    "home": "Główna",
     "about": "O mnie",
-    "projects": "Projekty",
+    "experience": "Doświadczenie",
+    "projects": "Moje projekty",
     "skills": "Umiejętności",
     "contact": "Kontakt",
     "resume": "CV"
@@ -14,10 +15,12 @@
   "Hero": {
     "greeting": "Cześć, jestem",
     "role": "Full-Stack Developer",
-    "tagline": "Tworzę szybkie, dopracowane aplikacje webowe — od pomysłu i UI po wdrożenie w chmurze.",
+    "tagline": "Jestem doświadczonym programistą dostarczającym wysokiej jakości rozwiązania w różnorodnych projektach. Moja wiedza obejmuje rozwój front-end i back-end, w tym TypeScript, React, Next.js i Redux.",
+    "tagline2": "Specjalizuję się w tworzeniu przyjaznych dla użytkownika interfejsów i skalowalnych systemów odpowiadających potrzebom klientów. Moją pasją jest rozwiązywanie złożonych wyzwań za pomocą czystych i skutecznych rozwiązań.",
     "ctaProjects": "Zobacz projekty",
-    "ctaContact": "Napisz do mnie",
-    "ctaResume": "Pobierz CV"
+    "ctaContact": "Dane kontaktowe",
+    "ctaResume": "Zobacz CV",
+    "dragHint": "Przeciągnij, aby obrócić"
   },
   "Home": {
     "featuredTitle": "Wybrane prace",
@@ -34,6 +37,13 @@
     "statTech": "Technologie",
     "statYears": "Lat kodowania"
   },
+  "Experience": {
+    "title": "Doświadczenie",
+    "subtitle": "Moja dotychczasowa droga — role, projekty i nauka.",
+    "present": "Obecnie",
+    "workTitle": "Doświadczenie zawodowe",
+    "coursesTitle": "Kursy"
+  },
   "Skills": {
     "title": "Umiejętności",
     "subtitle": "Narzędzia, po które sięgam najczęściej.",
@@ -44,6 +54,7 @@
     "subtitle": "Kliknij kartę, aby zobaczyć szczegóły, zrzuty ekranu i linki.",
     "filterAll": "Wszystkie",
     "viewDetails": "Szczegóły",
+    "explore": "Zobacz",
     "live": "Wersja live",
     "code": "Kod źródłowy",
     "tryDemo": "Wypróbuj demo",
@@ -51,7 +62,7 @@
     "techStack": "Stack technologiczny",
     "privateBadge": "Prywatny / komercyjny",
     "privateNote": "To praca komercyjna o zamkniętym kodzie. Aplikacja live i kod nie są publiczne — zamiast tego prezentacja krok po kroku na zrzutach ekranu.",
-    "galleryHint": "Użyj strzałek lub przesuń, aby przeglądać prezentację.",
+    "galleryHint": "Kliknij miniatury lub strzałki, aby przeglądać prezentację.",
     "noLive": "Link live jest prywatny",
     "back": "Powrót do projektów"
   },
@@ -81,5 +92,14 @@
   },
   "Lang": {
     "label": "Język"
+  },
+  "Widget": {
+    "online": "Online",
+    "greeting": "Cześć! 👋 Jestem dostępny — zadaj pytanie albo napisz wiadomość.",
+    "teaser": "Cześć 👋 Jestem online — masz pytanie?",
+    "writeButton": "Napisz wiadomość",
+    "emailButton": "Napisz e-mail",
+    "open": "Otwórz czat",
+    "close": "Zamknij"
   }
 }

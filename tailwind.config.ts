@@ -50,19 +50,27 @@ const config: Config = {
               foreground: '#1c1917',
             },
             primary: {
-              DEFAULT: '#6366f1',
+              DEFAULT: '#10b981',
               foreground: '#ffffff',
             },
-            focus: '#6366f1',
+            secondary: {
+              DEFAULT: '#0d9488',
+              foreground: '#ffffff',
+            },
+            focus: '#10b981',
           },
         },
         dark: {
           colors: {
             primary: {
-              DEFAULT: '#818cf8',
-              foreground: '#0b0b12',
+              DEFAULT: '#34d399',
+              foreground: '#022c22',
             },
-            focus: '#818cf8',
+            secondary: {
+              DEFAULT: '#2dd4bf',
+              foreground: '#042f2e',
+            },
+            focus: '#34d399',
           },
         },
       },
